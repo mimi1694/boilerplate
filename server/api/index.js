@@ -1,6 +1,7 @@
-const router = require('express').Router();
+'use strict'
+const router = require('express').Router()
 
-//router.use('/users', require('./users')); 
+router.use('/todos', require('./todos'));  // /api/todos
 
 //404 error handling
 router.use(function (req, res, next) {
