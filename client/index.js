@@ -11,9 +11,7 @@ import Root from './components/Root'
 
 ReactDOM.render(
   <Provider store={store}>
-    <Router>
       <Root/>
-    </Router>
   </Provider>,
   document.getElementById('app')
 );
